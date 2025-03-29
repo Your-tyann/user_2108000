@@ -1,1 +1,30 @@
-body{color: pink;}
+body{margin:0; padding: 0; color: black; background-attachment: fixed; 
+ backdrop-filter: blur(5px); height: 100%; background: #000 url(img/main.jpg); min-height:100%; background-size:cover;}
+
+ul.hr { margin: 10px; align-items: center;text-align: center;}
+ul.hr li {display: inline; margin-right: 20px; padding: 3px; align-items: center;}
+
+header {clear:left; background: black; border-bottom:2px solid darkred; text-align: center;
+	margin: 0 auto;overflow: auto; color: white;}
+
+.sticky {float:left; position: -webkit-sticky; position: sticky; top: 0;  list-style: none;
+    margin-top:20px;}
+nav {height: 380px; color: black; width: 160px; text-align: center;
+ border-bottom: 1px solid darkred; border-right: 1px solid darkred;
+  border-top: 1px solid darkred; font-size: 20px; background: black;}
+li a{display: block; color: white; padding: 8px 16px; text-decoration: none; color: white;}
+ul {list-style-type: none; margin: 0; padding: 0;}
+
+a:hover {background-color: darkred; color: white;}
+.ssp { display: flex; justify-content: center; margin-bottom: 50px;}
+
+img {float: left; margin: 10px; height: 200px; weight: auto;}
+
+h1 {text-align: center; color: darkred; font-size: 40px;}
+
+footer {text-align: center; color: white; clear:left;
+ min-height:50px; border-top:2px solid darkred;}
+
+.kvad{
+}
+.space {padding-left: 200px; text-shadow: 2px 2px 4px white;}
